@@ -1,18 +1,23 @@
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+html{
+	font-family: "微軟正黑體";
+	font-weight:700;
+}
 body{
 background-image: url("../images/bg.png");
 background-size: cover;
 background-repeat: no-repeat;
 background-position:left top;
 background-attachment: fixed;　
-font-family: "微軟正黑體"
+font-family: "微軟正黑體";
 
 }
 header{
 	background: rgba(255, 255, 255, 0.5);
 	background-size: cover;
+	font-family: "微軟正黑體";
 }
 #UP{
   position: fixed;
@@ -162,12 +167,12 @@ header{
 }
 .LOGINPO{
   position: relative;
-  left: 520px;
+  left: 400px;
   font-weight: 600;
 }
 #RERERE{
 position: relative;
-  left: 80px;
+  left:200px;
   font-weight: 600;
 }
 /* Style the search box inside the navigation bar */
@@ -429,3 +434,48 @@ position: absolute;
    position: relative;
    }
 
+
+
+
+.img-comp-container {
+  position: absolute;
+  top:400px;
+  left:250px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+#LOGOO{
+	position:absolute;
+	top:250px;
+	left:500px;
+}
+.aboutus_P{
+	position:absolute;
+	top:800px;
+	left:250px;
+	font-size:20px;
+}
